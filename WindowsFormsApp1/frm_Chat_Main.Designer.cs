@@ -59,6 +59,7 @@
             this.lbl_User_Username = new System.Windows.Forms.Label();
             this.lbl_User_Email = new System.Windows.Forms.Label();
             this.lbl_User_Telephone = new System.Windows.Forms.Label();
+            this.changeProfilePictureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -138,6 +139,8 @@
             // 
             // profileToolStripMenuItem
             // 
+            this.profileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.changeProfilePictureToolStripMenuItem});
             this.profileToolStripMenuItem.Name = "profileToolStripMenuItem";
             this.profileToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.profileToolStripMenuItem.Text = "Profile";
@@ -285,6 +288,12 @@
             this.lbl_User_Telephone.TabIndex = 2;
             this.lbl_User_Telephone.Text = "Telephone:";
             // 
+            // changeProfilePictureToolStripMenuItem
+            // 
+            this.changeProfilePictureToolStripMenuItem.Name = "changeProfilePictureToolStripMenuItem";
+            this.changeProfilePictureToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.changeProfilePictureToolStripMenuItem.Text = "Change Profile Picture";
+            // 
             // frm_Chat_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -348,5 +357,6 @@
         private System.Windows.Forms.Label lbl_User_Telephone;
         private System.Windows.Forms.Label lbl_User_Email;
         private System.Windows.Forms.Label lbl_User_Username;
+        private System.Windows.Forms.ToolStripMenuItem changeProfilePictureToolStripMenuItem;
     }
 }

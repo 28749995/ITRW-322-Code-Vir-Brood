@@ -58,6 +58,12 @@
     <Compile Include="frm_Chat_Main.Designer.cs">
       <DependentUpon>frm_Chat_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Profile_Picture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Profile_Picture.Designer.cs">
+      <DependentUpon>frm_Profile_Picture.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_Login.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Chat_Main.resx">
       <DependentUpon>frm_Chat_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Profile_Picture.resx">
+      <DependentUpon>frm_Profile_Picture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

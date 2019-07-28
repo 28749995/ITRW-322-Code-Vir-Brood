@@ -12,11 +12,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class frm_Chat_Main : Form
+    public partial class frm_Profile_Picture : Form
     {
-        public frm_Chat_Main()
+        public frm_Profile_Picture()
         {
             InitializeComponent();
+        }
+
+        private void btn_Browse_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
