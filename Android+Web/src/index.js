@@ -11,7 +11,6 @@ const firebase = require("firebase");
 require("firebase/firestore");
 
 firebase.initializeApp({
-    apiKey: "AIzaSyDDsE80W8NLPyTqBRfZYlf_2STg8C2kK7k",
     authDomain: "bread-mail.firebaseapp.com",
     databaseURL: "https://bread-mail.firebaseio.com",
     projectId: "bread-mail",
