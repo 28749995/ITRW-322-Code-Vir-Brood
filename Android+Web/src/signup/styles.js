@@ -2,9 +2,9 @@ const styles = theme => ({ //theme provided by materialUI
   main: { //class name
     width: 'auto',
     display: 'block',
-    marginLeft: theme.spacing(3),
+    marginLeft: theme.spacing(3), //theme.spacing is built-in, I use it to have a set size to work with
     marginRight: theme.spacing(3),
-    [theme.breakpoints.up(400 + theme.spacing(3 * 2))]: {
+    [theme.breakpoints.up(400 + theme.spacing(3) * 2)]: {
       width: 400,
       marginLeft: 'auto',
       marginRight: 'auto',
@@ -18,7 +18,7 @@ const styles = theme => ({ //theme provided by materialUI
     padding: `${theme.spacing(2)}px ${theme.spacing(3)}px ${theme.spacing()}`,
   },
   form: { //class name
-    width: '90%',
+    width: '100%',
     marginTop: theme.spacing(),
   },
   submit: { //class name
@@ -39,4 +39,4 @@ const styles = theme => ({ //theme provided by materialUI
   }
 });
 
-export default styles;
+export default styles; 

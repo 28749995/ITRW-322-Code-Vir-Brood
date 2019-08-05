@@ -4,7 +4,7 @@ const styles = theme => ({ //theme provided by materialUI
     display: 'block',
     marginLeft: theme.spacing(3),
     marginRight: theme.spacing(3),
-    [theme.breakpoints.up(400 + theme.spacing(3 * 2))]: {
+    [theme.breakpoints.up(400 + theme.spacing(3) * 2)]: {
       width: 400,
       marginLeft: 'auto',
       marginRight: 'auto',
@@ -27,7 +27,7 @@ const styles = theme => ({ //theme provided by materialUI
   hasAccountHeader: { //class name
     width: '100%',
   },
-  logInLink: { //class name
+  signUpLink: { //class name
     width: '100%',
     textDecoration: 'none',
     color: '#303f9f',

@@ -9,17 +9,12 @@ import DashboardComponent from './dashboard/dashboard';
 
 const firebase = require("firebase");
 require("firebase/firestore");
+//imports above
 
-firebase.initializeApp({
-    authDomain: "bread-mail.firebaseapp.com",
-    databaseURL: "https://bread-mail.firebaseio.com",
-    projectId: "bread-mail",
-    storageBucket: "bread-mail.appspot.com",
-    messagingSenderId: "430435838256",
-    appId: "1:430435838256:web:edb79b73f61b1544"
+firebase.initializeApp({  //firebase app details here
 });
 
-const routing = (
+const routing = ( //all routes are added here - routes are used to move to different pages
   <Router>
     <div id='routing-container'>
       <Route path='/login' component={LoginComponent}></Route>
@@ -29,7 +24,7 @@ const routing = (
   </Router>
 );
 
-ReactDOM.render(routing, document.getElementById('root'));
+ReactDOM.render(routing, document.getElementById('root'));  //routes added to webpage
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
